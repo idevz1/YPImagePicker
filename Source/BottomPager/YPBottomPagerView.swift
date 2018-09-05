@@ -19,22 +19,14 @@ final class YPBottomPagerView: UIView {
         backgroundColor = UIColor(red: 239/255, green: 238/255, blue: 237/255, alpha: 1)
         
         sv(
-            scrollView,
-            header
+            scrollView
         )
         
         layout(
             0,
             |scrollView|,
-            0,
-            |header| ~ 44
+            0
         )
-        
-        if #available(iOS 11.0, *) {
-            header.Bottom == safeAreaLayoutGuide.Bottom
-        } else {
-            header.bottom(0)
-        }
         
         clipsToBounds = false
         scrollView.clipsToBounds = false
