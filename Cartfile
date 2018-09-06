@@ -1,2 +1,2 @@
-github "freshOS/Stevia" "4.3.0"
+git "https://github.com/idevz1/Stevia.git"
 github "prynt/PryntTrimmerView" "bbe86ad58b04e2429a20fcfe92058225612b2ea5"
