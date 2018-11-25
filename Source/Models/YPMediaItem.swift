@@ -37,7 +37,7 @@ public class YPMediaVideo {
     public let fromCamera: Bool
     public var asset: PHAsset?
 
-    init(thumbnail: UIImage, videoURL: URL, fromCamera: Bool = false, asset: PHAsset? = nil) {
+    public init(thumbnail: UIImage, videoURL: URL, fromCamera: Bool = false, asset: PHAsset? = nil) {
         self.thumbnail = thumbnail
         self.url = videoURL
         self.fromCamera = fromCamera
